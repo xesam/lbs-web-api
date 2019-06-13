@@ -1,0 +1,22 @@
+{
+  "name": "lbs-web-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xesam/lbs-web-api.git"
+  },
+  "author": "xesam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xesam/lbs-web-api/issues"
+  },
+  "homepage": "https://github.com/xesam/lbs-web-api#readme",
+  "dependencies": {
+    "axios": "0.18.0"
+  }
+}
