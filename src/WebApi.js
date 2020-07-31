@@ -17,7 +17,7 @@ class WebApi {
             .then(res => {
                 let data = res.data;
                 if (data.status === 1) {
-                    throw new Error(JSON.stringify(data));
+                    return Promise.reject(data);
                 }
                 return data;
             });
